@@ -12,7 +12,7 @@
             padding: 20px;
             background-color: #f5f5f5;
         }
-        h1 {
+        h1, h2 {
             color: #333;
             text-align: center;
             border-bottom: 2px solid #666;
@@ -22,10 +22,48 @@
             line-height: 1.6;
             color: #444;
         }
+        .section {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .contact-info {
+            text-align: center;
+        }
+        .project {
+            margin: 15px 0;
+            padding: 10px;
+            border-left: 3px solid #666;
+        }
     </style>
 </head>
 <body>
     <h1>Welcome to MCP Test</h1>
-    <p>This is a simple test page for our GitHub repository.</p>
+    
+    <div class="section">
+        <h2>About Us</h2>
+        <p>We are a innovative team dedicated to creating amazing solutions for our clients. Our focus is on delivering high-quality results that exceed expectations.</p>
+    </div>
+
+    <div class="section">
+        <h2>Featured Projects</h2>
+        <div class="project">
+            <h3>Project Alpha</h3>
+            <p>A groundbreaking initiative that revolutionizes how we approach problem-solving.</p>
+        </div>
+        <div class="project">
+            <h3>Project Beta</h3>
+            <p>An innovative solution that helps businesses streamline their operations.</p>
+        </div>
+    </div>
+
+    <div class="section contact-info">
+        <h2>Contact Information</h2>
+        <p>Email: contact@example.com</p>
+        <p>Phone: (555) 123-4567</p>
+        <p>Address: 123 Business Street, Tech City, TC 12345</p>
+    </div>
 </body>
 </html>
